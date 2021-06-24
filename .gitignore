@@ -148,4 +148,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+Readme.txt
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,node
