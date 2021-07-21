@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework2</title>
+    <style>
+        body{padding: 0;margin: 0; height: 200vh;}
+        .big { width: 50%;height: 50%;}
+        .small {width: 25%;height: 25%;}
+        .inside { width: 10%;height: 10%;}
+        .absolute {position: absolute;}
+        .relative {position: relative;}
+        .fixed {position: fixed;}
+        .top {top: 0;}
+        .left {left:0;}
+        .right {right: 0;}
+        .bottom {bottom: 0;}
+        .center {left:50%; top:50%; transform: translate(-50%, -50%);}
+        .red {background-color: red;}
+        .green {background-color: green;}
+        .blue {background-color: blue;}
+        .yellow {background-color: yellow;}
+        .pink {background-color: pink ;}
+        .white {background-color: white;}
+    </style>
+</head>
+<body>
+       <div class="small fixed red top left"></div>
+       <div class="small fixed green top right"></div>
+       <div class="small fixed blue bottom left"></div>
+       <div class="small fixed yellow bottom right"></div>
+       <div class="big absolute white center">
+           <div class= "inside absolute red top left"></div>
+           <div class= "inside absolute green top right"></div>
+           <div class= "inside absolute blue bottom left"></div>
+           <div class= "inside absolute yellow bottom right"></div>
+           <div class= "inside relative pink center"></div>
+       </div>   
+<!--    
+    TopLeft -->
+     <!-- <div class="big fixed top left">
+        <div class="big absolute bottom right">
+            <div class="small absolute red top left"></div>
+        </div>
+    </div>
+        <div class="small absolute red top left"></div> --> -->
+
+    <!-- TopRight -->
+    <!-- <div class="big fixed  top right">
+        <div class="big absolute bottom left">
+            <div class="small absolute green top right"></div>
+        </div>
+    </div>
+        <div class="small absolute green top right"></div> --> -->
+
+    <!--BotLeft  -->
+     <!-- <div class="big fixed bottom left">
+        <div class="big absolute top right">
+            <div class="small absolute blue bottom left"></div>
+        </div>
+    </div>
+        <div class="small absolute blue bottom left"></div> -->
+     -->
+    <!-- BotRight -->
+    <!-- <div class="big fixed bottom right">
+        <div class="big absolute top left">
+            <div class="small absolute yellow bottom right"> </div>
+        </div>
+    </div>
+        <div class="small absolute yellow bottom right"></div>
+    </div> --> -->
+    <!-- center -->
+     <!-- <div class="small fixed white center">
+        <div class="small absolute pink center"></div>
+    </div> -->
+</body>
+</html>

@@ -1,0 +1,191 @@
+/* Global */
+h1,
+body {
+  margin: 0;
+}
+html {
+  background: darkgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+body {
+  max-width: 1400px;
+  background: lightblue;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.current {
+  color: deeppink;
+  font-weight: bold;
+}
+/* Header Styling */
+header {
+  background: skyblue;
+  color: whitesmoke;
+  min-height: 70px;
+  padding-top: 30px;
+  border-bottom: 3px solid salmon;
+}
+header .branding {
+  float: left;
+}
+header nav {
+  float: right;
+}
+header ul {
+  /* list-style-type: none; */
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: inherit;
+}
+
+header a:hover {
+  color: orange;
+}
+
+header span {
+  color: deeppink;
+}
+/* Showcase part */
+
+.showcase {
+  min-height: 400px;
+  background: url("https://picsum.photos/id/2/1500/500/?blur=4") no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+}
+.showcase p {
+  font-size: 20px;
+  color: deeppink;
+  width: 80%;
+  margin: auto;
+}
+
+/* Newletter part */
+
+.newletter {
+  padding: 15px;
+  background: lightskyblue;
+  color: coral;
+}
+
+.newletter h1 {
+  float: left;
+}
+
+.newletter form {
+  float: right;
+}
+.newletter input[type="email"] {
+  width: 250px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+}
+.newletter button[type="submit"] {
+  height: 35px;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+}
+/* boxes part */
+.boxes {
+  margin-top: 20px;
+}
+.box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+.box img {
+  height: 120px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: whitesmoke;
+  background-color: skyblue;
+  text-align: center;
+}
+
+/* About Us page */
+/* Global About */
+
+.about {
+  background-color: lightgrey;
+  margin: 0;
+}
+.aboutfooter {
+  margin-top: 0px;
+}
+.about-us h3 {
+  margin-top: 20px;
+}
+.container .about-us {
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+.container .sidebox {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgba(247, 0, 255, 0.5);
+  color: white;
+  border-radius: 10px 10px;
+}
+/* Service page */
+.container h3 {
+  margin: 0;
+  margin-top: 5px;
+}
+.service {
+  background-color: lightgrey;
+}
+.course {
+  float: left;
+  color: deeppink;
+  width: 60%;
+}
+.detail {
+  background-color: rgb(255, 241, 117);
+  border-radius: 8px 8px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.container .sidebox2 {
+  float: right;
+  width: 35%;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: rgba(247, 0, 255, 0.5);
+  color: white;
+  border-radius: 10px 10px;
+}
